@@ -1,0 +1,28 @@
+{% extends "billboard/base.html" %}
+
+{% block content %}
+
+
+    <div id="add-form-wrap" class="unvisible">
+        <form>
+            <fieldset class="fieldset">
+                <legend class="date">12/05/19</legend>
+                <input type="text form-item" placeholder="Title" /><br>
+                <textarea class="textarea form-item">Your message here</textarea><br>
+                <div class="auther form-item">
+                    <input type="text" placeholder="Author" />
+                </div>
+            </fieldset>
+        </form>
+        <div class="button-wrap">
+            <i class="fas fa-times"></i>
+            <i class="fas fa-check"></i>
+        </div>
+    </div>
+    <div class="button-wrap" id="add-button">
+        <i class="fas fa-plus" id="add"></i>
+    </div>
+
+
+
+{% endblock %}

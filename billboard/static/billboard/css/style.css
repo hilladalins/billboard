@@ -1,0 +1,49 @@
+/* font-family: 'Pinyon Script', cursive; */
+.logo{
+    font-family: 'Anton', sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+.date{
+    font-family: 'Poiret One', cursive;
+    font-size: 16px;
+}
+.form-item{
+    margin: 15px 0 15px 0;
+}
+.textarea{
+    height: 100px;
+    width: 100%;
+}
+.fieldset{
+    border: 3px dashed #00b7ef;
+}
+.auther{
+    text-align: right;
+}
+i{
+    font-size: 16px;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    padding: 7px 35px 7px 35px;
+}
+.fa-check,.fa-plus{
+    background-color: #66CDAA;
+}
+.fa-times{
+    background-color: red;
+}
+.user-wrap{
+    text-align: center;
+}
+.horizontal-line{
+    border-top: 1px solid #00b7ef;
+}
+.button-wrap{
+    text-align: center;
+    border: 1px dashed black;
+}
+.unvisible{
+    display: none;
+}
