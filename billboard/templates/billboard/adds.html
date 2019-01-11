@@ -1,0 +1,17 @@
+{% extends "billboard/home.html" %}
+
+{% block adds %}
+    {% for ad in adds %}
+        <fieldset class="fieldset-ad stripe">
+            <legend class="date">{{ ad.date_posted|date:"SHORT_DATE_FORMAT" }}</legend>
+            <div class="title">{{ ad.title }}</div>
+            <p class="content">{{ ad.content }}</p>
+            <div class="right-align">
+                <span class="author">{{ ad.author }}</span>
+            </div>
+        </fieldset>
+    {% endfor %}
+
+{% endblock %}
+
+

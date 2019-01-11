@@ -1,4 +1,4 @@
-/* font-family: 'Pinyon Script', cursive; */
+
 .logo{
     font-family: 'Anton', sans-serif;
     font-size: 40px;
@@ -15,10 +15,13 @@
     height: 100px;
     width: 100%;
 }
-.fieldset{
+.fieldset-ad{
+    border: 3px solid #00b7ef;
+}
+.fieldset-form{
     border: 3px dashed #00b7ef;
 }
-.auther{
+.right-align{
     text-align: right;
 }
 i{
@@ -43,7 +46,33 @@ i{
 .button-wrap{
     text-align: center;
     border: 1px dashed black;
+    padding: 10px;
 }
-.unvisible{
+.invisible{
     display: none;
+}
+.title{
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
+    color: #00b7ef;
+}
+.author{
+    font-family: 'Pinyon Script', cursive;
+    font-size: 24px;
+}
+button{
+    background: transparent;
+    border: none !important;
+}
+#adds-container{
+    margin: 0 auto;
+    max-width: 800px;
+}
+.stripe{
+    margin: 15px 0 15px 0;
+}
+.no-ad-container{
+    font-family: Arial;
+    font-size: 24px;
+    text-align: center;
 }

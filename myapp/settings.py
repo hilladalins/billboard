@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'myapp.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'billboard',
-        'USER': 'root',
-        'PASSWORD': 'hilla',
-        'HOST': 'localhost'
+        'NAME': 'sql12273668',
+        'USER': 'sql12273668',
+        'PASSWORD': 'BSvKFVHvRt',
+        'HOST': 'sql12.freemysqlhosting.net'
     }
 }
 
